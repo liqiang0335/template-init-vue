@@ -9,6 +9,8 @@
     }]
   ],
   "plugins": [
+    "webpack-async-module-name",
+    "ynw",
     "@babel/plugin-transform-runtime",
     "@babel/plugin-transform-dotall-regex",
     "@babel/plugin-proposal-optional-chaining",
@@ -30,8 +32,6 @@
       "libraryName": "vant",
       "libraryDirectory": "es",
       "style": true
-    }],
-    "webpack-async-module-name",
-    "ynw"
+    }]
   ]
 }
