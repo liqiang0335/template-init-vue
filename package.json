@@ -18,6 +18,7 @@
     "vue": "latest",
     "vuex": "latest",
     "vue-router": "latest",
+    "vue-pose": "latest",
     "vant": "latest",
     "ynw": "latest"
   },
