@@ -51,6 +51,8 @@
     "eslint-plugin-standard": "^3.1.0",
     "eslint-plugin-vue": "^4.7.1",
     "file-loader": "^1.1.11",
+    "gulp": "3.9.1",
+    "gulp.spritesmith": "6.9.0",
     "inquirer": "^6.1.0",
     "mini-css-extract-plugin": "^0.4.1",
     "node-sass": "^4.9.3",
