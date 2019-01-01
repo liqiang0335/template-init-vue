@@ -11,6 +11,7 @@
     "reconnecting-websocket": "latest",
     "date-fns": "latest",
     "element-ui": "latest",
+    "promise.prototype.finally": "latest",
     "es6-promise": "latest",
     "lodash": "latest",
     "localforage": "latest",
