@@ -1,27 +1,14 @@
 {
   presets: [
-    ["env", {
+    ["@babel/env", {
       "targets": {
         "browsers": ["ie >= 9"]
       },
-      "modules": "commonjs",
-      "debug": false,
-      "useBuiltIns": true
-    }],
-    "stage-0"
+      "modules": false,
+      "useBuiltIns": "usage"
+    }]
   ],
   plugins: [
-    ["component", [{
-      "libraryName": "element-ui",
-      "styleLibraryName": "theme-chalk"
-    }]],
-    ["import", {
-      "libraryName": "vant",
-      "libraryDirectory": "es",
-      "style": true
-    }],
-    "webpack-async-module-name",
-    "transform-runtime",
-    "ynw"
+    "@babel/plugin-transform-runtime"
   ]
 }
