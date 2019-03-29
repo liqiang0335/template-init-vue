@@ -9,7 +9,6 @@
     }]
   ],
   plugins: [
-    "@babel/plugin-transform-runtime",
-    "ynw"
+    "@babel/plugin-transform-runtime"
   ]
 }
