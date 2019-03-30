@@ -5,10 +5,24 @@
         "browsers": ["ie >= 9"]
       },
       "modules": false,
-      "useBuiltIns": "usage"
+      "useBuiltIns": "usage",
+      "corejs": "3"
     }]
   ],
   plugins: [
-    "@babel/plugin-transform-runtime"
+    "webpack-async-module-name",
+    "@babel/plugin-transform-runtime",
+    [
+      "component",
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "theme-chalk"
+      }
+    ],
+    ["import", {
+      "libraryName": "vant",
+      "libraryDirectory": "es",
+      "style": true
+    }]
   ]
 }
