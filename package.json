@@ -21,6 +21,7 @@
     "vue-router": "latest",
     "vue-pose": "latest",
     "vant": "latest",
+    "core-js": "latest",
     "ynw": "latest"
   }
 }
