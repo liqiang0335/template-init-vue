@@ -11,6 +11,7 @@
   ],
   plugins: [
     "webpack-async-module-name",
+    "ynw",
     "@babel/plugin-transform-runtime",
     [
       "component",
