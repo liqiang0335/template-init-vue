@@ -51,6 +51,7 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-vue": "^5.2.2",
+    "vue-eslint-parser": "^6.0.4",
     "eslint-plugin-standard": "^4.0.0",
     "file-loader": "^3.0.1",
     "gulp": "^4.0.0",
