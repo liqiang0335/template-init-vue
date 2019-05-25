@@ -1,9 +1,5 @@
 module.exports = {
-  extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:vue/essential"
-  ],
+  extends: ["eslint:recommended", "plugin:vue/essential"],
   env: {
     browser: true,
     commonjs: true,
@@ -25,9 +21,6 @@ module.exports = {
   },
   rules: {
     semi: 2,
-    "react/react-in-jsx-scope": "off",
-    "react/prop-types": "off",
-    "react/display-name": "off",
     "no-irregular-whitespace": "off",
     "no-console": "off"
   }

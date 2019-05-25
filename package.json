@@ -1,9 +1,10 @@
 {
-  "name": "demo",
+  "name": "vue-project",
   "version": "1.0.0",
-  "description": "",
   "main": "",
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
