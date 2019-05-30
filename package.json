@@ -6,7 +6,6 @@
     "test": "jest"
   },
   "author": "",
-  "framework": "vue",
   "license": "ISC",
   "dependencies": {
     "axios": "latest",
