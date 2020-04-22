@@ -9,7 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "latest",
-    "date-fns": "latest",
+    "dayjs": "latest",
     "element-ui": "latest",
     "lodash": "latest",
     "localforage": "latest",
