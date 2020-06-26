@@ -3,25 +3,23 @@ module.exports = {
   env: {
     browser: true,
     commonjs: true,
-    es6: true
+    es6: true,
   },
   globals: {
     importName: true,
-    __dirname: true,
-    process: true,
-    path: true
   },
   parser: "vue-eslint-parser",
   parserOptions: {
+    parser: "babel-eslint",
     ecmaVersion: 2018,
     sourceType: "module",
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   rules: {
     semi: 2,
     "no-irregular-whitespace": "off",
-    "no-console": "off"
-  }
+    "no-console": "off",
+  },
 };
