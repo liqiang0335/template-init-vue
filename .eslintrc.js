@@ -7,7 +7,7 @@ module.exports = {
     node: true,
   },
   globals: {
-    importName: true,
+    yn: true,
   },
   parser: "vue-eslint-parser",
   parserOptions: {
